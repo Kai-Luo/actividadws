@@ -1,0 +1,1 @@
+worker: php bin/app-server.php

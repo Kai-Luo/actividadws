@@ -1,1 +1,1 @@
-worker: php bin/app-server.php
+web: php bin/app-server.php

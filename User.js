@@ -21,8 +21,7 @@ $(document).ready(function(){
 
 
 function connection(){
-
-	conn = new WebSocket('ws://' + window.location.host + ':8080');
+	conn = new WebSocket('ws://http://actividadws.herokuapp.com/:8080');
 	conn.onopen = function(e) {
 	    console.log("WebSocketConnection established!");
 	};
